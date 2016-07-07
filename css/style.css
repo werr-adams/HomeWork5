@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+    .container {
+        width: 1215px;
+        margin: 0 auto;
+    }
+
+    nav {
+       width: 100%;
+        height: 3.7vh;
+        background: rgb(7,80,143);
+        padding-right: 2%;
+        text-align: right;
+    }
+    .menu {
+        height: 100%;
+        list-style: none;
+    }
+    .menu li {
+        display: inline-block;
+        height: 100%;
+
+    }
+    .menu a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        padding: 1vh;
+        color: #60b5ed;
+        font: 400 14px / 14px 'Helvetica Neue', Tahoma, sans-serif;
+        position: relative;
+
+    }
+    .minhas {
+        border-left: 1px solid #60b5ed;
+    }
+    .ola a{
+        color: rgb(255, 255, 255);
+    }
+    .minhas a{
+        color: rgb(255, 255, 255);
+        padding-left: 4vh;
+    }
+    .minhas img{
+        position: absolute;
+        left: 1vh;
+        bottom: 0;   
+    }
+    .underline {
+        text-decoration: underline;
+    }
+    
+    .menu>li:hover>a {
+        background: #60b5ed;
+        color: #fff;
+    }
+    .menu li:nth-last-child(2):hover a{
+        background: url(../img/Layer-16.png);
+    }
+    .menu li:last-child:hover a {
+        background: url(../img/Layer-16.png);
+    }
+/*Main Content*/
+    main {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 96.6vh;
+        background:  url(../img/Background-copy.png);
+        background-size: cover;
+    }
+    .entrar {
+        width: 46.4%;
+        margin: auto;
+        background: rgba(16, 16,16, .6);
+        text-align: center;
+    }
+    .entrarHeader {
+        height: 6.2vh;
+        border-bottom: 1px solid #fff;
+    }
+    .entrarHeader h1{
+        color: #ffffff;
+        font: 400 24px 'Helvetica Neue', Tahoma, sans-serif;
+        line-height: 6.5vh;
+    }
+    form {
+        width: 49%;
+        margin: 0 auto;
+    }
+    .logInFB {
+        line-height: 10vh;
+        
+    }
+    .logInFB button {
+        height: 3.7vh;
+        vertical-align: middle;
+        background: rgba(255, 255, 255, 0);
+        border: 0;
+    }
+    .logInFB button:visited {
+        border: none;
+    }
+    .lineOuLine {
+        margin-top: -6%;
+        margin-bottom: 7.5%;
+    }
+    .leftLine {
+        width: 100%;
+        position: relative;
+    }
+    .ou {
+        position: absolute;
+        left: 46%;
+        top: 42%;
+        color: #999999;
+        font: 400 14px / 16px 'Helvetica Neue', Tahoma, sans-serif;
+        text-transform: uppercase;
+        padding: 0 1%;
+    }
+    input {
+        font: 400 14px / 16px #cccccc;;
+        width: 100%;
+        height: 3.5vh;
+        margin: 0.7vh 0;
+        background: rgb(0,6,0);
+        border: 0;
+        border-bottom: 1px solid #cccccc;;  
+    }
+    input:focus {
+        border: 0;
+        box-shadow: 0px 1px 0px 0.00px #4b4b4b;
+    }
+    .sendLabel {
+        display: block;
+        width: 100%;
+        color: #cccccc;
+        font: 400 14px/16px 'Helvetica Neue', Tahoma, sans-serif;
+        text-align: left;
+        padding-bottom: 1vh;
+    }
+    input[type="checkbox"] {
+        height: 13px;
+        width: 13px;  
+    }
+    input[type="submit"] {
+        background: url(../img/Button-copy.png) no-repeat;
+        background-size: cover;
+        border: 0;
+        border-radius: 5%;
+        width: 55%;
+        height: 3.5%;
+        color: #ffffff;
+        font: 400 14px / 30px 'Helvetica Neue', Tahoma, sans-serif;
+        text-align: center;
+    }
+    .entrar>p {
+        width: 60%;
+        color: #cccccc;
+        font: 400 11px / 16px 'Helvetica Neue', Tahoma, sans-serif;
+        margin: 0 auto 2vh;
+    }
