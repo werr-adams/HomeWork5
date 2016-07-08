@@ -26,7 +26,7 @@
                 </div>
                 <form action="#">
                     <div class="logInFB">
-                        <button><img src="img/Layer-3-copy.png" alt=""></button>
+                        <a><img src="img/Layer-3-copy.png" alt=""></a>
                     </div>
                     <div class="lineOuLine">
                         <div class="leftLine">
@@ -36,12 +36,12 @@
                             </div> 
                         </div>
                     </div>
-                    <input type="text" placeholder="    First Name">
-                    <input type="text" placeholder="    Last Name">
-                    <input type="email" placeholder="    Email Address">
-                    <input type="password" placeholder="    Choose Password">
-                    <input type="password" placeholder="    Password Confirm">
-                    <label for="send" class="sendLabel"><input type="checkbox" id="send"><span>&nbsp;&nbsp;Send me Youbike updates and tips</span>
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="password" name="password" placeholder="Choose Password" required>
+                    <input type="password" name="passwordConfirm" placeholder="Password Confirm" required>
+                    <label for="send" class="sendLabel"><input type="checkbox" id="send" name="send"><span>&nbsp;&nbsp;Send me Youbike updates and tips</span>
                     </label>
                     <input type="submit" value="Create my Account">
                 </form>
