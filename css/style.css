@@ -127,7 +127,7 @@ body {
         padding: 0 1px;
     }
     input {
-        font: 400 14px / 16px #cccccc;;
+        font: 400 14px / 16px #cccccc;
         width: 100%;
         height: 36px;
         margin: 8px 0;
@@ -138,7 +138,22 @@ body {
     }
     input:focus {
         border: 0;
-        box-shadow: 0px 1px 0px 0.00px #4b4b4b;
+        box-shadow: 0px 0px 15px #3e94c9;
+        border-radius: 3px;
+        background: -webkit-linear-gradient(top, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
+        background: linear-gradient(to bottom, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
+    }
+    :focus::-webkit-input-placeholder { 
+        color: #fff;
+    }
+    :focus::-moz-placeholder { 
+        color: #fff;
+    }
+    :focus:-ms-input-placeholder { 
+        color: #fff;
+    }
+    :focus::placeholder { 
+        color: #fff;
     }
     .sendLabel {
         display: block;
