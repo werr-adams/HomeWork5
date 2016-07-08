@@ -11,9 +11,9 @@
 
     nav {
        width: 100%;
-        height: 3.7vh;
+        height: 36px;
         background: rgb(7,80,143);
-        padding-right: 2%;
+        padding-right: 20px;
         text-align: right;
     }
     .menu {
@@ -29,7 +29,7 @@
         display: block;
         height: 100%;
         text-decoration: none;
-        padding: 1vh;
+        padding: 10px 12px;
         color: #60b5ed;
         font: 400 14px / 14px 'Helvetica Neue', Tahoma, sans-serif;
         position: relative;
@@ -37,18 +37,20 @@
     }
     .minhas {
         border-left: 1px solid #60b5ed;
+        padding-left: 7px;
+        padding-right: 7px;
     }
     .ola a{
         color: rgb(255, 255, 255);
     }
     .minhas a{
         color: rgb(255, 255, 255);
-        padding-left: 4vh;
+        padding-left: 38px;
     }
     .minhas img{
         position: absolute;
-        left: 1vh;
-        bottom: 0;   
+        left: 9px;
+        bottom: 4px;   
     }
     .underline {
         text-decoration: underline;
@@ -71,35 +73,35 @@
         display: -ms-flexbox;
         display: flex;
         width: 100%;
-        height: 96.6vh;
+        height: 100vh;
         background:  url(../img/Background-copy.png);
         background-size: cover;
     }
     .entrar {
-        width: 46.4%;
+        width: 560px;
         margin: auto;
         background: rgba(16, 16,16, .6);
         text-align: center;
     }
     .entrarHeader {
-        height: 6.2vh;
+        height: 65px;
         border-bottom: 1px solid #fff;
     }
     .entrarHeader h1{
         color: #ffffff;
-        font: 400 24px 'Helvetica Neue', Tahoma, sans-serif;
-        line-height: 6.5vh;
+        font: 400 24px/65px 'Helvetica Neue', Tahoma, sans-serif;
+        
     }
     form {
-        width: 49%;
+        width: 276px;
         margin: 0 auto;
     }
     .logInFB {
-        line-height: 10vh;
+        line-height: 95px;
         
     }
     .logInFB button {
-        height: 3.7vh;
+        height: 35px;
         vertical-align: middle;
         background: rgba(255, 255, 255, 0);
         border: 0;
@@ -108,8 +110,8 @@
         border: none;
     }
     .lineOuLine {
-        margin-top: -6%;
-        margin-bottom: 7.5%;
+        margin-top: -6px;
+        margin-bottom: 21px;
     }
     .leftLine {
         width: 100%;
@@ -122,13 +124,13 @@
         color: #999999;
         font: 400 14px / 16px 'Helvetica Neue', Tahoma, sans-serif;
         text-transform: uppercase;
-        padding: 0 1%;
+        padding: 0 1px;
     }
     input {
         font: 400 14px / 16px #cccccc;;
         width: 100%;
-        height: 3.5vh;
-        margin: 0.7vh 0;
+        height: 36px;
+        margin: 8px 0;
         background: rgb(0,6,0);
         border: 0;
         border-bottom: 1px solid #cccccc;;  
@@ -143,7 +145,7 @@
         color: #cccccc;
         font: 400 14px/16px 'Helvetica Neue', Tahoma, sans-serif;
         text-align: left;
-        padding-bottom: 1vh;
+        padding: 10px 0;
     }
     input[type="checkbox"] {
         height: 13px;
@@ -154,8 +156,8 @@
         background-size: cover;
         border: 0;
         border-radius: 5%;
-        width: 55%;
-        height: 3.5%;
+        width: 150px;
+        height: 35px;
         color: #ffffff;
         font: 400 14px / 30px 'Helvetica Neue', Tahoma, sans-serif;
         text-align: center;
